@@ -14,7 +14,10 @@ def main():
             convertir_distance()
         elif choix == "q":
             print("Merci d’avoir utilisé le convertisseur !")
-            break
+	if not confirmer_recommencer():
+    	    print("Merci d’avoir utilisé le convertisseur !")
+    	    break
+        break
 
 if __name__ == "__main__":
     main()
