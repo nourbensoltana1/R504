@@ -21,4 +21,10 @@ def confirmer_recommencer():
         reponse = input("Souhaitez-vous faire une autre conversion ? (o/n) : ").lower()
     return reponse == "o"
 
+def afficher_aide():
+    print("\n=== AIDE DU CONVERTISSEUR ===")
+    print("1 → Conversion de température (°C ↔ °F)")
+    print("2 → Conversion de distance (m ↔ km)")
+    print("q → Quitter le programme")
+    print("==============================")
 
