@@ -14,3 +14,11 @@ def demander_choix(choix_possibles):
         return demander_choix(choix_possibles)
     return choix
 
+def confirmer_recommencer():
+    reponse = input("\nSouhaitez-vous faire une autre conversion ? (o/n) : ").lower()
+    while reponse not in ["o", "n"]:
+        print("Veuillez répondre par 'o' pour oui ou 'n' pour non.")
+        reponse = input("Souhaitez-vous faire une autre conversion ? (o/n) : ").lower()
+    return reponse == "o"
+
+
