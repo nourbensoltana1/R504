@@ -3,8 +3,7 @@ from temperature import convertir_temperature
 from distance import convertir_distance
 
 def main():
-    print("=== Convertisseur d'unités ===")
-
+    print("Bienvenue dans notre convertisseur d’unités développé en binôme !")
     while True:
         afficher_menu()
         choix = demander_choix(["1", "2", "q"])
