@@ -15,8 +15,9 @@ def main():
             convertir_distance()
         elif choix == "q":
             print("Merci d’avoir utilisé le convertisseur !")
-            break  
-
+        elif choix == "h":
+   	    afficher_aide()
+	    break
         if not confirmer_recommencer():
             print("Merci d’avoir utilisé le convertisseur !")
             break
