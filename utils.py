@@ -4,6 +4,7 @@ def afficher_menu():
     print("==============================")
     print("1. Conversion de température")
     print("2. Conversion de distance")
+    print("3. Conversion de poids")
     print("q. Quitter")
     print("==============================")
 
@@ -25,6 +26,7 @@ def afficher_aide():
     print("\n=== AIDE DU CONVERTISSEUR ===")
     print("1 → Conversion de température (°C ↔ °F)")
     print("2 → Conversion de distance (m ↔ km)")
+    print("3 → Conversion de poids (k ↔ lb)")
     print("q → Quitter le programme")
     print("==============================")
 
